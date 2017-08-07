@@ -77,3 +77,17 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Visual studio files
+.vs
+vs_build/.vs
+*.VC.opendb
+*.VC.db
+*.exe
+*.ilk
+*.pdb
+*.vcxproj.user
+*.lib
+x64/
+x86/
+example_data/
