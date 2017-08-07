@@ -5,9 +5,6 @@ platform: x64
 install:
   - ECHO "Filesystem root:"
   - ps: "ls \"C:/\""
-
-  - ECHO "Installed SDKs:"
-  - ps: "ls \"C:/Program Files/Microsoft SDKs/Windows\""
   
   - ps: mkdir C:\build | out-null
   - ps: mkdir C:\gdal | out-null
